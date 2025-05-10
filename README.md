@@ -11,32 +11,31 @@
     - **Database**: MySQL
     - **Admin Panel**: Custom-built using PHP
     - **Authentication**: PHP Sessions
-    - **Deployment**: *(Specify if deployed, e.g., Vercel, 000WebHost, etc.)*
 
 ---
 
 ## 📁 Project Structure
 
     hotel-booking-/
-    ├── admin-panel/ # Administrative dashboard and controls
-    ├── auth/ # User authentication (login, register, logout)
-    ├── config/ # Database configuration files
-    ├── css/ # Compiled CSS files
-    ├── fonts/ # Font files used in the project
-    ├── images/ # Image assets
-    ├── includes/ # Reusable PHP components (header, footer)
-    ├── js/ # JavaScript files
-    ├── rooms/ # Room-related pages and functionalities
-    ├── scss/ # SCSS source files
-    ├── users/ # User-specific pages and profiles
-    ├── 404.php # Custom 404 error page
-    ├── about.php # About us page
-    ├── contact.php # Contact form and details
-    ├── database.sql # SQL file to set up the database schema
-    ├── index.php # Landing page
-    ├── rooms.php # Rooms listing page
-    ├── services.php # Services offered by the hotel
-    └── README.md # Project documentation
+    ├── admin-panel/           # Administrative dashboard and controls
+    ├── auth/                  # User authentication (login, register, logout)
+    ├── config/                # Database configuration files
+    ├── css/                   # Compiled CSS files
+    ├── fonts/                 # Font files used in the project
+    ├── images/                # Image assets
+    ├── includes/              # Reusable PHP components (header, footer)
+    ├── js/                    # JavaScript files
+    ├── rooms/ b               # Room-related pages and functionalities
+    ├── scss/                  # SCSS source files
+    ├── users/                 # User-specific pages and profiles
+    ├── 404.php                # Custom 404 error page
+    ├── about.php              # About us page
+    ├── contact.php            # Contact form and details
+    ├── database.sql           # SQL file to set up the database schema
+    ├── index.php              # Landing page
+    ├── rooms.php              # Rooms listing page
+    ├── services.php           # Services offered by the hotel
+    └── README.md              # Project documentation
 
 
 ---
@@ -72,13 +71,15 @@
    git clone https://github.com/bhaktofmahakal/hotel-booking-.git
 
 
-Set Up the Database
+**Set Up the Database**
 
-Import the database.sql file into your MySQL server to create the necessary tables.
+    Import the database.sql file into your MySQL server to create the necessary tables.
 
 Configure the Database Connection
 
-Update the database credentials in config/db_config.php:
+Update the database credentials in 
+
+    config/db_config.php:
 
     
     define('DB_SERVER', 'localhost');
@@ -86,11 +87,13 @@ Update the database credentials in config/db_config.php:
     define('DB_PASSWORD', 'your_password');
     define('DB_NAME', 'hotel_booking');
     
-Run the Application
+**Run the Application**
 
 Deploy the project on a local server (e.g., XAMPP, WAMP) or a live server.
 
-Access the application via http://localhost/hotel-booking-/.
+Access the application via
+
+     http://localhost/hotel-booking-/.
 
 📧 Contact
 
