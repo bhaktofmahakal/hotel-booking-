@@ -46,7 +46,55 @@ A **modern PHP-based hotel reservation platform** enabling seamless room booking
 <details>
 <summary>Click to view</summary>
 
-
+    hotel-booking-/
+    │
+    ├── 📁 admin-panel/              # Admin dashboard for managing bookings, rooms, users
+    │   ├── dashboard.php            # Admin dashboard overview
+    │   ├── manage-rooms.php         # Add/edit/delete room listings
+    │   ├── manage-users.php         # View/manage registered users
+    │   └── manage-bookings.php      # Approve/cancel bookings
+    │
+    ├── 📁 auth/                     # User authentication logic
+    │   ├── login.php                # User login page
+    │   ├── register.php             # User registration page
+    │   └── logout.php               # Logout handler
+    │
+    ├── 📁 config/                   # Configuration files
+    │   └── db_config.php            # Database connection settings
+    │
+    ├── 📁 css/                      # Compiled stylesheets
+    │   └── style.css                # Main CSS file
+    │
+    ├── 📁 fonts/                    # Custom fonts (if used)
+    │
+    ├── 📁 images/                   # UI and hotel-related images
+    │
+    ├── 📁 includes/                 # Reusable components
+    │   ├── header.php               # Site header/navbar
+    │   └── footer.php               # Site footer
+    │
+    ├── 📁 js/                       # JavaScript for interactivity
+    │   └── main.js                  # Custom JS code
+    │
+    ├── 📁 rooms/                    # Room browsing and booking
+    │   ├── room-details.php         # Single room view
+    │   └── book-room.php            # Room booking logic
+    │
+    ├── 📁 scss/                     # SCSS source files
+    │   └── style.scss               # Main SCSS file
+    │
+    ├── 📁 users/                    # User profile and history
+    │   └── profile.php              # View/edit profile and past bookings
+    │
+    ├── 📄 404.php                   # Custom error page
+    ├── 📄 about.php                 # About the hotel/company
+    ├── 📄 contact.php               # Contact form for inquiries
+    ├── 📄 database.sql              # SQL script to set up the MySQL database
+    ├── 📄 index.php                 # Homepage with hero, featured rooms, CTA
+    ├── 📄 rooms.php                 # List of available rooms
+    ├── 📄 services.php              # Hotel services (spa, dining, etc.)
+    ├── 📄 README.md                 # Project documentation
+    
 
 </details>
 
