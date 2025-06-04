@@ -119,6 +119,10 @@ A **modern PHP-based hotel reservation platform** enabling seamless room booking
 
 ## ⚙️ Getting Started
 
+
+<details>
+<summary>click to view</summary>
+
 ### ✅ Prerequisites
 - PHP 7.x or later  
 - MySQL Server  
@@ -153,6 +157,11 @@ A **modern PHP-based hotel reservation platform** enabling seamless room booking
         Place the project folder in your web root (htdocs for XAMPP)
         
         Start Apache and MySQL
+
+
+
+</details>
+
 
 ---
 
